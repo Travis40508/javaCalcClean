@@ -111,9 +111,9 @@ public class Calculator {
         System.out.println("Please Enter Your State Tax, (Example, 6% = 0.06");
         double stateTax = Math.round(scanner.nextDouble() * 100.00) / 100.00;
         double result = Math.round((bill * stateTax) * 100.00) / 100.00;
-        System.out.println("Your total grocery tax is " + result + ". Your total bill is " + (bill + result) / 1);
-        list.add("Your total grocery tax is " + result + ". Your total bill is " + (bill + result) / 1);
-        outFile.println("Your total grocery tax is " + result + ". Your total bill is " + (bill + result) / 1);
+        System.out.println("Your total grocery tax is " + result + ". Your total bill is " + (bill + result));
+        list.add("Your total grocery tax is " + result + ". Your total bill is " + (bill + result));
+        outFile.println("Your total grocery tax is " + result + ". Your total bill is " + (bill + result));
         outFile.close();
     }
     public static void viewHistory() {

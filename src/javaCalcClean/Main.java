@@ -36,7 +36,10 @@ public class Main {
                     Calculator.clearHistory();
                     break;
                 case(6) :
-                    System.out.println("Welcome to your Calculator App! Calculate Values, Calculate a Tip, Calculate a Grocery Tax, View Current History, and Clear it. Enjoy!" + "\n");
+                    System.out.println("Welcome to your Calculator App!" + "\n" +
+                                       "Calculate Values, Calculate a Tip, Calculate a Grocery Tax," + "\n" +
+                                       "View Current History, and Clear it." + "\n" +
+                                       "Use Numbers to Indicate your Choices for Each. Enjoy!" + "\n");
                     break;
                 case(7) :
                     Beatles = false;
